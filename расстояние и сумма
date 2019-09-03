@@ -1,0 +1,20 @@
+#include "stdafx.h"
+#include <cmath>
+#include <iostream>
+
+using namespace std;
+int main()
+{
+	int a, b, c, r;
+	cout << "Vvedite coordinaty a, b, c" << endl;
+	cin >> a;
+	cin >> b;
+	cin >> c;
+	cout << abs(a-c);
+	cout << " ";
+	cout << abs(b-c);
+	cout << " ";
+	cout << abs(b-c)+abs(a-c);
+	system("pause");
+	return 0;
+}
